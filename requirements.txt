@@ -1,2 +1,0 @@
-scvi-tools
-scanpy
