@@ -20,7 +20,7 @@ RUN apt-get -y update && \
     npm
 
 RUN apt-get -y install software-properties-common && \
-    apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF' && \
+    apt-key adv --keyserver keyserver.ubuntu.com --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF' && \
     add-apt-repository 'deb https://cloud.r-project.org/bin/linux/debian buster-cran35/' && \
     apt-get -y update && \
     apt-get install -y r-base
@@ -43,5 +43,5 @@ RUN R -e "install.packages('devtools')" &&\
     R -e "InstallData(ifnb);" && \
     R -e "install.packages(BiocManager);" && \
     R -e "BiocManager::install(c('LoomExperiment', 'SingleCellExperiment'));" && \
-    R -e "devtools::install_github('cellgeni/sceasy');" && \
+    R -e "devtools::install_github('cellgeni/sceasy');"
 

@@ -1,0 +1,6 @@
+name: example-environment
+
+dependencies:
+  - python=3.8
+  - scvi-tools
+  - scanpy
