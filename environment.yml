@@ -1,4 +1,4 @@
-name: example-environment
+name: scvi_notebook_env
 
 dependencies:
   - python=3.8
