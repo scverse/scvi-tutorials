@@ -15,9 +15,7 @@ RUN apt-get -y update && \
      python-pip \
      zlib1g-dev \
     apt-utils \
-    unzip \
-    nodejs \
-    npm
+    unzip
 
 RUN apt-get -y install software-properties-common && \
     apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF' && \
