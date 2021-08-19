@@ -35,9 +35,9 @@ RUN R -e "install.packages('devtools');" &&\
     R -e "install.packages('cowplot');" && \
     R -e "install.packages('Seurat');" && \
     R -e "install.packages('reticulate');" && \
-    R -e "install.packages('anndata');" && \
     R -e "install.packages('devtools');" && \
     R -e "devtools::install_github('satijalab/seurat-data');" && \
+    R -e "library(SeuratData);" && \
     R -e "InstallData('pbmc3k');" && \
     R -e "install.packages('https://seurat.nygenome.org/src/contrib/ifnb.SeuratData_3.0.0.tar.gz', repos = NULL, type = 'source') ;" && \
     R -e "InstallData('ifnb');" && \
