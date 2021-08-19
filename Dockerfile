@@ -30,18 +30,18 @@ COPY environment.yml .
 RUN conda env create -f environment.yml
 
 #################################################################################
-RUN R -e "install.packages('devtools')" &&\
+RUN R -e "install.packages('devtools');" &&\
     R -e "library(devtools);" && \
-    R -e "install.packages(cowplot);" && \
-    R -e "install.packages(Seurat);" && \
-    R -e "install.packages(reticulate);" && \
-    R -e "install.packages(anndata);" && \
-    R -e "install.packages(devtools);" && \
+    R -e "install.packages('cowplot');" && \
+    R -e "install.packages('Seurat');" && \
+    R -e "install.packages('reticulate');" && \
+    R -e "install.packages('anndata');" && \
+    R -e "install.packages('devtools');" && \
     R -e "devtools::install_github('satijalab/seurat-data');" && \
-    R -e "InstallData(pbmc3k);" && \
+    R -e "InstallData('pbmc3k');" && \
     R -e "install.packages('https://seurat.nygenome.org/src/contrib/ifnb.SeuratData_3.0.0.tar.gz', repos = NULL, type = 'source') ;" && \
-    R -e "InstallData(ifnb);" && \
-    R -e "install.packages(BiocManager);" && \
+    R -e "InstallData('ifnb');" && \
+    R -e "install.packages('BiocManager');" && \
     R -e "BiocManager::install(c('LoomExperiment', 'SingleCellExperiment'));" && \
     R -e "devtools::install_github('cellgeni/sceasy');"
 
