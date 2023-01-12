@@ -1,7 +1,7 @@
 [tool.ruff]
 line-length = 88
 exclude = [".git","__pycache__","build","docs/","_build","dist"]
-ignore = ["E402","E501"]
+ignore = ["E402","E501", "F821", "E741"]
 
 [tool.isort]
 include_trailing_comma = true
