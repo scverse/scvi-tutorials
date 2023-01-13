@@ -34,7 +34,6 @@ repos:
             mdformat,
             mdformat-black,
             mdformat-frontmatter,
-            mdformat-footnote,
             mdformat-web,
             mdformat-myst,
           ]
