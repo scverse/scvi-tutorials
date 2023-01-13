@@ -36,6 +36,7 @@ repos:
             mdformat-frontmatter,
             mdformat-footnote,
             mdformat-web,
+            mdformat-myst,
           ]
         args: [--nbqa-md]
   - repo: https://github.com/pre-commit/mirrors-prettier
