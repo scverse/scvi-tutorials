@@ -39,7 +39,7 @@ repos:
           ]
         args: [--nbqa-md]
   - repo: https://github.com/pre-commit/mirrors-prettier
-    rev: v3.0.0-alpha.4
+    rev: v3.0.0-alpha.6
     hooks:
       - id: prettier
   - repo: https://github.com/asottile/blacken-docs
