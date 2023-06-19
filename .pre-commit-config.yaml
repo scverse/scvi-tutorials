@@ -43,7 +43,7 @@ repos:
     hooks:
       - id: prettier
   - repo: https://github.com/asottile/blacken-docs
-    rev: 1.13.0
+    rev: 1.14.0
     hooks:
       - id: blacken-docs
   - repo: https://github.com/PyCQA/isort
@@ -51,7 +51,7 @@ repos:
     hooks:
       - id: isort
   - repo: https://github.com/asottile/yesqa
-    rev: v1.4.0
+    rev: v1.5.0
     hooks:
       - id: yesqa
         additional_dependencies:
@@ -80,7 +80,7 @@ repos:
           - --remove-unused-variable
           - --ignore-init-module-imports
   - repo: https://github.com/asottile/pyupgrade
-    rev: v3.4.0
+    rev: v3.7.0
     hooks:
       - id: pyupgrade
         args: [--py3-plus, --py38-plus, --keep-runtime-typing]
