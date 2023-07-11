@@ -22,11 +22,15 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -U scvi-tools[tutorials]
+          python -m pip install -U scvi-tools[tutorials]
 
       - name: Install nbconvert
         run: |
-          pip install -U nbconvert
+          python -m pip install -U jupyter ipykernel nbconvert
+
+      - name: Install kernel
+        run: |
+          python -m ipykernel install
 
       - name: Run notebook
         run: |
