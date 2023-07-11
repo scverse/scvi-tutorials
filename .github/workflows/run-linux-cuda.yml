@@ -1,0 +1,36 @@
+name: run-linux-cuda
+
+on:
+  workflow_dispatch:
+    inputs:
+      notebook-path:
+        description: Path to the notebook to run
+        required: true
+        type: string
+
+jobs:
+  docker:
+    runs-on: [self-hosted, Linux, X64, CUDA]
+
+    container:
+      image: martinkim0/scvi-tools:ubuntu-latest-mamba-latest-python-3.11-cuda-11
+      options: --user root --gpus all
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          pip install -U scvi-tools[tutorials]
+
+      - name: Install nbconvert
+        run: |
+          pip install -U nbconvert
+
+      - name: Run notebook
+        run: |
+          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook-path }}
+
+      - name: Submit pull request with changes
+        uses: peter-evans/create-pull-request@v5
