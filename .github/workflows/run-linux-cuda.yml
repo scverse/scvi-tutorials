@@ -13,7 +13,7 @@ jobs:
     runs-on: [self-hosted, Linux, X64, CUDA]
 
     container:
-      image: martinkim0/scvi-tools:ubuntu-latest-mamba-latest-python-3.11-cuda-11
+      image: martinkim0/scvi-tools:py3.11-cu11
       options: --user root --gpus all
 
     steps:
