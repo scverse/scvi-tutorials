@@ -1,0 +1,62 @@
+name: run-linux-cuda
+
+on:
+  workflow_dispatch:
+    inputs:
+      notebook-path:
+        description: Path to the notebook to run
+        required: true
+        type: string
+      python-version:
+        description: Python version
+        required: true
+        default: "3.11"
+        type: choice
+        options:
+          - "3.11"
+          - "3.10"
+          - "3.9"
+      cuda-version:
+        description: CUDA version
+        required: true
+        default: "11"
+        type: choice
+        options:
+          - "11"
+      scvi-tools-version:
+        description: scvi-tools version (latest, stable, or semver)
+        required: true
+        default: "latest"
+        type: string
+
+jobs:
+  docker:
+    runs-on: [self-hosted, Linux, X64, CUDA]
+
+    container:
+      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-devel-${{ inputs.scvi-tools-version }}
+      options: --user root --gpus all
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install Python kernel
+        run: |
+          python -m ipykernel install
+
+      - name: Run notebook
+        run: |
+          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook-path }}
+
+      - name: Submit pull request with changes
+        uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: Rerun ${{ inputs.notebook-path }}
+          title: Automated update for ${{ inputs.notebook-path }}
+          branch: update-${{ inputs.notebook-path }}
+          body: |
+            Update ${{ inputs.notebook-path }}:
+            - Python version: ${{ inputs.python-version }}
+            - CUDA version: ${{ inputs.cuda-version }}
+            - scvi-tools version: ${{ inputs.scvi-tools-version }}
