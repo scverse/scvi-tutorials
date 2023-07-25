@@ -65,12 +65,18 @@ on:
         default: "latest"
         type: string
 
+      branch-name:
+        description: scvi-tools branch to run on
+        required: true
+        default: "main"
+        type: string
+
 jobs:
   docker:
     runs-on: [self-hosted, Linux, X64, CUDA]
 
     container:
-      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-devel-${{ inputs.scvi-tools-version }}
+      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-devel-${{ inputs.scvi-tools-version }}-${{ inputs.branch-name}}
       options: --user root --gpus all
 
     steps:
