@@ -59,10 +59,10 @@ on:
         options:
           - "11"
 
-      scvi-tools-version:
-        description: scvi-tools version (latest, stable, or semver)
+      branch-name:
+        description: scvi-tools branch to run on
         required: true
-        default: "latest"
+        default: "main"
         type: string
 
 jobs:
@@ -70,7 +70,7 @@ jobs:
     runs-on: [self-hosted, Linux, X64, CUDA]
 
     container:
-      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-devel-${{ inputs.scvi-tools-version }}
+      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-devel-${{ inputs.branch-name}}
       options: --user root --gpus all
 
     steps:
@@ -95,4 +95,4 @@ jobs:
             Update ${{ inputs.notebook-path }}:
             - Python version: ${{ inputs.python-version }}
             - CUDA version: ${{ inputs.cuda-version }}
-            - scvi-tools version: ${{ inputs.scvi-tools-version }}
+            - scvi-tools branch: ${{ inputs.branch-name }}
