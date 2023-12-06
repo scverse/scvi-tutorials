@@ -11,6 +11,7 @@ on:
           - atac/PeakVI.ipynb
           - atac/scbasset_batch.ipynb
           - atac/scbasset.ipynb
+          - atac/PoissonVI.ipynb
           - dev/data_tutorial.ipynb
           - dev/model_user_guide.ipynb
           - dev/module_user_guide.ipynb
@@ -33,6 +34,7 @@ on:
           - scrna/scVI_DE_worm.ipynb
           - scrna/seed_labeling.ipynb
           - scrna/tabula_muris.ipynb
+          - scrna/contrastiveVI_tutorial.ipynb
           - spatial/cell2location_lymph_node_spatial_tutorial.ipynb
           - spatial/DestVI_tutorial.ipynb
           - spatial/gimvi_tutorial.ipynb
@@ -70,12 +72,12 @@ jobs:
     runs-on: [self-hosted, Linux, X64, CUDA]
 
     container:
-      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-devel-${{ inputs.branch-name}}
+      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-tutorials-${{ inputs.branch-name}}
       options: --user root --gpus all
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Python kernel
         run: |
@@ -88,7 +90,7 @@ jobs:
       - name: Submit pull request with changes
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: Rerun ${{ inputs.notebook-path }}
+          commit-message: Execute ${{ inputs.notebook-path }}
           title: Automated update for ${{ inputs.notebook-path }}
           branch: update-${{ inputs.notebook-path }}
           body: |
