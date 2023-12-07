@@ -75,6 +75,8 @@ jobs:
       image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-tutorials-${{ inputs.branch-name}}
       options: --user root --gpus all
 
+    timeout-minutes: 600 # lenient timeout for scbasset tutorial
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
