@@ -9,9 +9,9 @@ on:
         type: choice
         options: # not including R tutorials currently
           - atac/PeakVI.ipynb
+          - atac/PoissonVI.ipynb
           - atac/scbasset_batch.ipynb
           - atac/scbasset.ipynb
-          - atac/PoissonVI.ipynb
           - dev/data_tutorial.ipynb
           - dev/model_user_guide.ipynb
           - dev/module_user_guide.ipynb
@@ -27,6 +27,7 @@ on:
           - scrna/amortized_lda.ipynb
           - scrna/AutoZI_tutorial.ipynb
           - scrna/cellassign_tutorial.ipynb
+          - scrna/contrastiveVI_tutorial.ipynb
           - scrna/harmonization.ipynb
           - scrna/linear_decoder.ipynb
           - scrna/query_hlca_knn.ipynb
@@ -34,7 +35,6 @@ on:
           - scrna/scVI_DE_worm.ipynb
           - scrna/seed_labeling.ipynb
           - scrna/tabula_muris.ipynb
-          - scrna/contrastiveVI_tutorial.ipynb
           - spatial/cell2location_lymph_node_spatial_tutorial.ipynb
           - spatial/DestVI_tutorial.ipynb
           - spatial/gimvi_tutorial.ipynb
