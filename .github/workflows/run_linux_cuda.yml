@@ -9,6 +9,7 @@ on:
         type: choice
         options: # not including R tutorials currently
           - atac/PeakVI.ipynb
+          - atac/PoissonVI.ipynb
           - atac/scbasset_batch.ipynb
           - atac/scbasset.ipynb
           - dev/data_tutorial.ipynb
@@ -26,6 +27,7 @@ on:
           - scrna/amortized_lda.ipynb
           - scrna/AutoZI_tutorial.ipynb
           - scrna/cellassign_tutorial.ipynb
+          - scrna/contrastiveVI_tutorial.ipynb
           - scrna/harmonization.ipynb
           - scrna/linear_decoder.ipynb
           - scrna/query_hlca_knn.ipynb
