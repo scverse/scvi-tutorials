@@ -29,9 +29,9 @@ Please consider making a tax-deductible [donation](https://numfocus.org/donate-t
 [badge-numfocus]: https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A
 [link-numfocus]: http://numfocus.org
 
-# Tutorials repository
+# Tutorials
 
-This repository contains the source notebooks for the [tutorials](https://docs.scvi-tools.org/en/stable/tutorials/index.html) on the main scvi-tools site.
+This repository contains the source notebooks for the [tutorials](https://docs.scvi-tools.org/en/stable/tutorials/index.html) on the scvi-tools site, and is included in the [main repository](https://github.com/scverse/scvi-tools) as a submodule. Please refer to the latter for additional resources.
 
 # Reference
 
