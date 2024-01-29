@@ -31,7 +31,7 @@ Please consider making a tax-deductible [donation](https://numfocus.org/donate-t
 
 # Tutorials
 
-This repository contains the source notebooks for the [tutorials](https://docs.scvi-tools.org/en/stable/tutorials/index.html) on the scvi-tools site, and is included in the [main repository](https://github.com/scverse/scvi-tools) as a submodule. Please refer to the latter for additional resources.
+This repository contains the source notebooks for the [tutorials](https://docs.scvi-tools.org/en/stable/tutorials/index.html) on the scvi-tools site and is included in the [main repository](https://github.com/scverse/scvi-tools) as a submodule. Please refer to the latter for additional resources.
 
 # Reference
 
