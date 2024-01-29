@@ -1,4 +1,4 @@
-name: run-linux-cuda-branch
+name: Run notebook (Linux, CUDA, branch)
 
 on:
   workflow_dispatch:
@@ -72,7 +72,7 @@ jobs:
     runs-on: [self-hosted, Linux, X64, CUDA]
 
     container:
-      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-tutorials-${{ inputs.branch-name}}
+      image: scverse/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-tutorials-${{ inputs.branch-name}}
       options: --user root --gpus all
 
     timeout-minutes: 600 # lenient timeout for scbasset tutorial
@@ -89,7 +89,7 @@ jobs:
         run: |
           python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook-path }}
 
-      - name: Submit pull request with changes
+      - name: Submit PR with changes
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: Execute ${{ inputs.notebook-path }}
