@@ -1,4 +1,4 @@
-name: run-linux-cuda
+name: Run notebook (Linux, CUDA)
 
 on:
   workflow_dispatch:
@@ -72,14 +72,14 @@ jobs:
     runs-on: [self-hosted, Linux, X64, CUDA]
 
     container:
-      image: martinkim0/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-devel-${{ inputs.scvi-tools-version }}
+      image: scverse/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-tutorials-${{ inputs.scvi-tools-version }}
       options: --user root --gpus all
 
     timeout-minutes: 600 # lenient timeout for scbasset tutorial
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install Python kernel
         run: |
@@ -89,7 +89,7 @@ jobs:
         run: |
           python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook-path }}
 
-      - name: Submit pull request with changes
+      - name: Submit PR changes
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: Rerun ${{ inputs.notebook-path }}
