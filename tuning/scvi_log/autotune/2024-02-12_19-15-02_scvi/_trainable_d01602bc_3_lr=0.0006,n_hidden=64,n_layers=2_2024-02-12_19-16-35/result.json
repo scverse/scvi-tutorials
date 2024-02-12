@@ -1,1 +1,17 @@
-{"validation_loss": 660.1238403320312, "timestamp": 1707765397, "checkpoint_dir_name": null, "done": true, "training_iteration": 1, "trial_id": "d01602bc", "date": "2024-02-12_19-16-37", "time_this_iter_s": 0.7965550422668457, "time_total_s": 0.7965550422668457, "pid": 1467, "hostname": "fd197d3d5e22", "node_ip": "192.168.224.2", "config": {"n_hidden": 64, "n_layers": 2, "lr": 0.0005979515454770414}, "time_since_restore": 0.7965550422668457, "iterations_since_restore": 1}
+{
+  "validation_loss": 660.1238403320312,
+  "timestamp": 1707765397,
+  "checkpoint_dir_name": null,
+  "done": true,
+  "training_iteration": 1,
+  "trial_id": "d01602bc",
+  "date": "2024-02-12_19-16-37",
+  "time_this_iter_s": 0.7965550422668457,
+  "time_total_s": 0.7965550422668457,
+  "pid": 1467,
+  "hostname": "fd197d3d5e22",
+  "node_ip": "192.168.224.2",
+  "config": { "n_hidden": 64, "n_layers": 2, "lr": 0.0005979515454770414 },
+  "time_since_restore": 0.7965550422668457,
+  "iterations_since_restore": 1
+}
