@@ -1,6 +1,34 @@
-data/
-.ipynb_checkpoints/
+# Temp files
 .DS_Store
-.vscode
-local/
-scratch/
+*~
+buck-out/
+
+# Compiled files
+.venv/
+__pycache__/
+.mypy_cache/
+.ruff_cache/
+
+# Distribution / packaging
+/build/
+/dist/
+/*.egg-info/
+
+# Tests and coverage
+/.pytest_cache/
+/.cache/
+/data/
+
+# docs
+/docs/generated/
+/docs/_build/
+
+# IDEs
+/.idea/
+/.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# node
+node_modules/
