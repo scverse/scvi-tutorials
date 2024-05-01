@@ -36,6 +36,7 @@ on:
           - scrna/scVI_DE_worm.ipynb
           - scrna/seed_labeling.ipynb
           - scrna/tabula_muris.ipynb
+          - scrna/MrVI_tutorial.ipynb
           - spatial/cell2location_lymph_node_spatial_tutorial.ipynb
           - spatial/DestVI_tutorial.ipynb
           - spatial/gimvi_tutorial.ipynb
