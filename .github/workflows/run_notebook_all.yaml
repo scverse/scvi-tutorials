@@ -12,44 +12,7 @@ jobs:
   notebook:
     strategy:
       matrix:
-        notebook:
-          - atac/PeakVI.ipynb
-          - atac/PoissonVI.ipynb
-          - atac/scbasset_batch.ipynb
-          - atac/scbasset.ipynb
-          - dev/data_tutorial.ipynb
-          - dev/model_user_guide.ipynb
-          - dev/module_user_guide.ipynb
-          - hub/cellxgene_census_model.ipynb
-          - hub/minification.ipynb
-          - hub/scvi_hub_intro_and_download.ipynb
-          - hub/scvi_hub_upload_and_large_files.ipynb
-          - multimodal/cite_scrna_integration_w_totalVI.ipynb
-          - multimodal/MultiVI_tutorial.ipynb
-          - multimodal/totalVI_reference_mapping.ipynb
-          - multimodal/totalVI.ipynb
-          - quick_start/api_overview.ipynb
-          - quick_start/data_loading.ipynb
-          - scrna/amortized_lda.ipynb
-          - scrna/AutoZI_tutorial.ipynb
-          - scrna/cellassign_tutorial.ipynb
-          - scrna/contrastiveVI_tutorial.ipynb
-          - scrna/harmonization.ipynb
-          - scrna/linear_decoder.ipynb
-          - scrna/query_hlca_knn.ipynb
-          - scrna/scanvi_fix.ipynb
-          - scrna/scarches_scvi_tools.ipynb
-          - scrna/scVI_DE_worm.ipynb
-          - scrna/seed_labeling.ipynb
-          - scrna/tabula_muris.ipynb
-          - scrna/MrVI_tutorial.ipynb
-          - spatial/cell2location_lymph_node_spatial_tutorial.ipynb
-          - spatial/DestVI_tutorial.ipynb
-          - spatial/gimvi_tutorial.ipynb
-          - spatial/stereoscope_heart_LV_tutorial.ipynb
-          - spatial/tangram_scvi_tools.ipynb
-          - tuning/autotune_new_model.ipynb
-          - tuning/autotune_scvi.ipynb
+        notebook: ${{ fromYaml(readFile('.github/workflows/notebooks.yaml')) }}
 
     uses: ./.github/workflows/run_notebook.yaml
     with:
