@@ -1,10 +1,10 @@
-name: Run notebook (Linux, CUDA)
+name: run notebook (individual)
 
 on:
   workflow_dispatch:
     inputs:
-      notebook-path:
-        description: Path to the notebook to run
+      notebook:
+        description: "Path to the notebook to run"
         required: true
         type: choice
         options: # not including R tutorials currently
@@ -15,6 +15,7 @@ on:
           - dev/data_tutorial.ipynb
           - dev/model_user_guide.ipynb
           - dev/module_user_guide.ipynb
+          - hub/cellxgene_census_model.ipynb
           - hub/minification.ipynb
           - hub/scvi_hub_intro_and_download.ipynb
           - hub/scvi_hub_upload_and_large_files.ipynb
@@ -44,61 +45,14 @@ on:
           - spatial/tangram_scvi_tools.ipynb
           - tuning/autotune_new_model.ipynb
           - tuning/autotune_scvi.ipynb
-
-      python-version:
-        description: Python version
+      version:
+        description: "latest/stable/semver/branch"
         required: true
-        default: "3.11"
-        type: choice
-        options:
-          - "3.11"
-          - "3.10"
-          - "3.9"
-
-      cuda-version:
-        description: CUDA version
-        required: true
-        default: "11"
-        type: choice
-        options:
-          - "11"
-
-      scvi-tools-version:
-        description: scvi-tools version (latest, stable, or semver)
-        required: true
-        default: "latest"
         type: string
 
 jobs:
-  docker:
-    runs-on: [self-hosted, Linux, X64, CUDA]
-
-    container:
-      image: scverse/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-tutorials-${{ inputs.scvi-tools-version }}
-      options: --user root --gpus all
-
-    timeout-minutes: 600 # lenient timeout for scbasset tutorial
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Install Python kernel
-        run: |
-          python -m ipykernel install
-
-      - name: Run notebook
-        run: |
-          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook-path }}
-
-      - name: Submit PR changes
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: Rerun ${{ inputs.notebook-path }}
-          title: Automated update for ${{ inputs.notebook-path }}
-          branch: update-${{ inputs.notebook-path }}
-          body: |
-            Update ${{ inputs.notebook-path }}:
-            - Python version: ${{ inputs.python-version }}
-            - CUDA version: ${{ inputs.cuda-version }}
-            - scvi-tools version: ${{ inputs.scvi-tools-version }}
+  notebook:
+    uses: ./.github/workflows/run_notebook.yaml
+    with:
+      notebook: ${{ inputs.notebook }}
+      version: ${{ inputs.version }}

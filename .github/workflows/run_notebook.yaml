@@ -1,0 +1,40 @@
+name: run notebook
+
+on:
+  workflow_call:
+    inputs:
+      notebook:
+        description: "Path to the notebook to run"
+        required: true
+        type: string
+      version:
+        description: "latest/stable/semver/branch"
+        required: true
+        type: string
+
+jobs:
+  notebook:
+    runs-on: [self-hosted, Linux, X64, CUDA]
+
+    container:
+      image: ghcr.io/scverse/scvi-tools:py3.11-cu12-${{ inputs.version }}-tutorials
+      options: --user root --gpus all
+
+    timeout-minutes: 600 # lenient timeout for scbasset tutorial
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python kernel
+        run: |
+          python -m ipykernel install
+
+      - name: Run notebook
+        run: |
+          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }}
+
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: run ${{ inputs.notebook }}
+          title: automated update for ${{ inputs.notebook }}
+          branch: update-${{ inputs.notebook }}
