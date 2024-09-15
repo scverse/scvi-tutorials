@@ -48,20 +48,20 @@ on:
       python-version:
         description: Python version
         required: true
-        default: "3.11"
+        default: "3.12"
         type: choice
         options:
+          - "3.12"
           - "3.11"
           - "3.10"
-          - "3.9"
 
       cuda-version:
         description: CUDA version
         required: true
-        default: "11"
+        default: "12"
         type: choice
         options:
-          - "11"
+          - "12"
 
       branch-name:
         description: scvi-tools branch to run on
