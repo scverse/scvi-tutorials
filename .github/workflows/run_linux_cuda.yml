@@ -42,7 +42,6 @@ on:
           - spatial/gimvi_tutorial.ipynb
           - spatial/stereoscope_heart_LV_tutorial.ipynb
           - spatial/tangram_scvi_tools.ipynb
-          - tuning/autotune_new_model.ipynb
           - tuning/autotune_scvi.ipynb
 
       python-version:
