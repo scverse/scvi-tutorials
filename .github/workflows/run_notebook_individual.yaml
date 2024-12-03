@@ -38,6 +38,7 @@ on:
           - scrna/seed_labeling.ipynb
           - scrna/tabula_muris.ipynb
           - scrna/MrVI_tutorial.ipynb
+          - scrna/decipher_tutorial.ipynb
           - spatial/cell2location_lymph_node_spatial_tutorial.ipynb
           - spatial/DestVI_tutorial.ipynb
           - spatial/gimvi_tutorial.ipynb
