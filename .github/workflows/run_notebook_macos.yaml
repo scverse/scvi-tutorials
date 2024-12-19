@@ -27,26 +27,25 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # - name: Create Conda environment and install dependencies
-      #   run: |
-      #     conda init bash
-      #     source ~/.bash_profile
-      #     conda activate scvi
+      - name: Create Conda environment and install dependencies
+        run: |
+          conda init bash
+          source ~/.bash_profile
+          conda activate scvi
 
       # - name: Install dependencies
       #   run: |
       #     python -m pip install --upgrade pip wheel uv
       #     python -m pip install "scvi-tools[tests]"
       #     python -m pip install jax-metal
-      #     python -m ipykernel install
 
-      - name: Install Python kernel
-        run: |
-          python -m ipykernel install
+      # - name: Install Python kernel
+      #   run: |
+      #     python -m ipykernel install --user
           
       - name: Run notebook
         run: |
-          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }}
+          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }} 
 
       - uses: peter-evans/create-pull-request@v5
         with:
