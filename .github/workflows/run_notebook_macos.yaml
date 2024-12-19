@@ -45,7 +45,7 @@ jobs:
 
       - name: Run notebook
         run: |
-          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }}
+          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }} --gpus all
 
       - uses: peter-evans/create-pull-request@v5
         with:
