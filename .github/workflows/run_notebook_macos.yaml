@@ -1,0 +1,51 @@
+name: run notebook
+
+on:
+  workflow_call:
+    inputs:
+      notebook:
+        description: "Path to the notebook to run"
+        required: true
+        type: string
+      version:
+        description: "latest/stable/semver/branch"
+        required: true
+        type: string
+
+jobs:
+  notebook:
+    runs-on: [self-hosted, macOS, X64, MPS]
+
+    name: macos_integration
+
+    timeout-minutes: 600 # lenient timeout for scbasset tutorial
+
+    env:
+      OS: ${{ matrix.os }}
+      PYTHON: ${{ matrix.python }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Create Conda environment and install dependencies
+        run: |
+          conda init bash
+          source ~/.bash_profile
+          conda activate scvi
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip wheel uv
+          python -m pip install "scvi-tools[tests]"
+          python -m pip install jax-metal
+          python -m ipykernel install
+
+      - name: Run notebook
+        run: |
+          python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }}
+
+      - uses: peter-evans/create-pull-request@v5
+        with:
+          commit-message: run MPS ${{ inputs.notebook }}
+          title: automated MPS update for ${{ inputs.notebook }}
+          branch: update-mps-${{ inputs.notebook }}
