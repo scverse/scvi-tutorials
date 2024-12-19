@@ -42,7 +42,7 @@ jobs:
       # - name: Install Python kernel
       #   run: |
       #     python -m ipykernel install --user
-          
+
       - name: Run notebook
         run: |
           python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }} --gpus all
