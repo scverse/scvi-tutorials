@@ -24,6 +24,7 @@ on:
           - multimodal/totalVI.ipynb
           - quick_start/api_overview.ipynb
           - quick_start/data_loading.ipynb
+          - scbs/MethylVI_batch.ipynb
           - scrna/amortized_lda.ipynb
           - scrna/AutoZI_tutorial.ipynb
           - scrna/cellassign_tutorial.ipynb
