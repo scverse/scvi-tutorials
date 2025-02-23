@@ -1,7 +1,26 @@
-# scvi-tutorials
+<a href="https://scvi-tools.org/">
+  <img
+    src="https://github.com/scverse/scvi-tools/blob/main/docs/_static/scvi-tools-horizontal.svg?raw=true"
+    width="400"
+    alt="scvi-tools"
+  >
+</a>
 
-Repo for notebooks used in scvi tutorials. See https://www.scvi-tools.org/
+[![PyPI][pypi-badge]][pypi-link]
 
-`main` branch is stable. All updates should come via PR. Please install `pre-commit` to ensure notebooks are formatted correctly.
+[scvi-tools] (single-cell variational inference tools) is a package for probabilistic modeling and
+analysis of single-cell omics data, built on top of [PyTorch] and [AnnData].
 
-Note to devs -- create a release on this repo with the same tag as the main repo upon relase over there! This makes sure the tutorials are versioned from the docs site.
+# Tutorials
+
+This repository contains the source notebooks for the [tutorials] on the scvi-tools site and is
+included in the [main repository] as a submodule. Please refer to the latter for additional
+resources.
+
+[anndata]: https://anndata.readthedocs.io/en/latest/
+[main repository]: https://github.com/scverse/scvi-tools
+[pypi-badge]: https://img.shields.io/pypi/v/scvi-tools.svg
+[pypi-link]: https://pypi.org/project/scvi-tools
+[pytorch]: https://pytorch.org
+[scvi-tools]: https://scvi-tools.org/
+[tutorials]: https://docs.scvi-tools.org/en/stable/tutorials/index.html
