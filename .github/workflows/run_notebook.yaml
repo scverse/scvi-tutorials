@@ -29,7 +29,7 @@ jobs:
         run: |
           python -m ipykernel install
           python -m pip install "jax[cuda]==0.4.35"
-          
+
       - name: Run notebook
         run: |
           python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }}
