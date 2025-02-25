@@ -89,6 +89,7 @@ jobs:
       - name: Install Python kernel
         run: |
           python -m ipykernel install
+          python -m pip install "jax[cuda]==0.4.35"
 
       - name: Run notebook
         run: |
