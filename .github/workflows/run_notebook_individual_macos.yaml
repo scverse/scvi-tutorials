@@ -16,7 +16,6 @@ on:
           - dev/model_user_guide.ipynb
           - dev/module_user_guide.ipynb
           - hub/cellxgene_census_model.ipynb
-          - hub/minification.ipynb
           - hub/scvi_hub_intro_and_download.ipynb
           - hub/scvi_hub_upload_and_large_files.ipynb
           - multimodal/cite_scrna_integration_w_totalVI.ipynb
@@ -44,7 +43,9 @@ on:
           - spatial/gimvi_tutorial.ipynb
           - spatial/stereoscope_heart_LV_tutorial.ipynb
           - spatial/tangram_scvi_tools.ipynb
-          - tuning/autotune_scvi.ipynb
+          - use_cases/autotune_scvi.ipynb
+          - use_cases/minification.ipynb
+          - use_cases/interpretability.ipynb
       version:
         description: "latest/stable/semver/branch"
         required: true
