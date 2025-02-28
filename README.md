@@ -17,9 +17,6 @@ This repository contains the source notebooks for the [tutorials] on the scvi-to
 included in the [main repository] as a submodule. Please refer to the latter for additional
 resources.
 
-[scvi-tools] (single-cell variational inference tools) is part of the scverse® project ([website](https://scverse.org), [governance](https://scverse.org/about/roles)) and is fiscally sponsored by [NumFOCUS](https://numfocus.org/).
-If you like scverse® and want to support our mission, please consider making a [donation](https://numfocus.org/donate-to-scverse) to support our efforts.
-
 [anndata]: https://anndata.readthedocs.io/en/latest/
 [main repository]: https://github.com/scverse/scvi-tools
 [pypi-badge]: https://img.shields.io/pypi/v/scvi-tools.svg
@@ -27,3 +24,15 @@ If you like scverse® and want to support our mission, please consider making a 
 [pytorch]: https://pytorch.org
 [scvi-tools]: https://scvi-tools.org/
 [tutorials]: https://docs.scvi-tools.org/en/stable/tutorials/index.html
+
+[scvi-tools] (single-cell variational inference tools) is part of the scverse® project ([website](https://scverse.org), [governance](https://scverse.org/about/roles)) and is fiscally sponsored by [NumFOCUS](https://numfocus.org/).
+If you like scverse® and want to support our mission, please consider making a [donation](https://numfocus.org/donate-to-scverse) to support our efforts.
+
+<div align="center">
+<a href="https://numfocus.org/project/scverse">
+  <img
+    src="https://raw.githubusercontent.com/numfocus/templates/master/images/numfocus-logo.png"
+    width="200"
+  >
+</a>
+</div>
