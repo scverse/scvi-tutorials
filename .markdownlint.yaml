@@ -13,7 +13,7 @@ MD041: false
 
 # MD013/line-length
 MD013:
-  line_length: 99
+  line_length: 250
 
 # MD024/no-duplicate-heading
 MD024:
