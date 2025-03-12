@@ -56,9 +56,9 @@ on:
         default: "3.12"
         type: choice
         options:
+          - "3.13"
           - "3.12"
           - "3.11"
-          - "3.10"
 
       cuda-version:
         description: CUDA version
