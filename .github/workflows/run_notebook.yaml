@@ -28,7 +28,9 @@ jobs:
       - name: Install Python kernel
         run: |
           python -m ipykernel install
-          python -m pip install "jax[cuda]==0.4.35"
+          python -m pip install "jax[cuda12]"
+          python -m pip install "scvi-tools[tutorials]"
+          python -m pip install "scanpy>=1.11.1"
 
       - name: Run notebook
         run: |
