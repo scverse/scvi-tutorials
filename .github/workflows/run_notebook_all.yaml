@@ -52,7 +52,7 @@ jobs:
           - spatial/stereoscope_heart_LV_tutorial.ipynb
           - spatial/tangram_scvi_tools.ipynb
           - spatial/resolVI_tutorial.ipynb
-          - spatial/NicheVI_tutorial.ipynb
+          - spatial/scVIVA_tutorial.ipynb
           - use_cases/autotune_scvi.ipynb
           - use_cases/interpretability.ipynb
           - use_cases/minification.ipynb
