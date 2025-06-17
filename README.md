@@ -40,3 +40,5 @@ professional services, travel, workshops, and a variety of other needs.
 [pytorch]: https://pytorch.org
 [scvi-tools]: https://scvi-tools.org/
 [tutorials]: https://docs.scvi-tools.org/en/stable/tutorials/index.html
+
+Copyright (c) 2025, Yosef Lab, Weizmann Institute of Sceince
