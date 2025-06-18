@@ -35,6 +35,8 @@ professional services, travel, workshops, and a variety of other needs.
 
 Copyright (c) 2025, Yosef Lab, Weizmann Institute of Science
 
+Copyright (c) 2025, Yosef Lab, Weizmann Institute of Science
+
 [anndata]: https://anndata.readthedocs.io/en/latest/
 [main repository]: https://github.com/scverse/scvi-tools
 [pypi-badge]: https://img.shields.io/pypi/v/scvi-tools.svg
