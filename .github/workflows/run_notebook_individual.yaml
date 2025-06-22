@@ -15,6 +15,7 @@ on:
           - dev/data_tutorial.ipynb
           - dev/model_user_guide.ipynb
           - dev/module_user_guide.ipynb
+          - hub/Tahoe100.ipynb
           - hub/cellxgene_census_model.ipynb
           - hub/query_hlca_knn.ipynb
           - hub/scvi_hub_intro_and_download.ipynb
