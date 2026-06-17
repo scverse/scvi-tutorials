@@ -36,8 +36,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip wheel uv
-          python -m pip install "scvi-tools[tests]"
-          python -m pip install jax-metal
+          python -m pip install "scvi-tools[tests,metal]"
 
       - name: Install Python kernel
         run: |
