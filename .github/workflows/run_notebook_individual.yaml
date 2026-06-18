@@ -28,6 +28,8 @@ on:
           - hub/scvi_hub_upload_and_large_files.ipynb
           - hub/Tahoe100.ipynb
           - multimodal/cite_scrna_integration_w_totalVI.ipynb
+          - multimodal/DiagVI_spatial_proteomics.ipynb
+          - multimodal/DiagVI_spatial_transcriptomics.ipynb
           - multimodal/MultiVI_tutorial.ipynb
           - multimodal/scarches_scvi_tools.ipynb
           - multimodal/totalVI_reference_mapping.ipynb
