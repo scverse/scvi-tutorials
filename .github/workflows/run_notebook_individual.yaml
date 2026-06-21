@@ -34,6 +34,7 @@ on:
           - multimodal/scarches_scvi_tools.ipynb
           - multimodal/totalVI_reference_mapping.ipynb
           - multimodal/totalVI.ipynb
+          - multimodal/totalanvi.ipynb
           - quick_start/api_overview.ipynb
           - quick_start/data_loading.ipynb
           - scbs/MethylVI_batch.ipynb
