@@ -32,7 +32,7 @@ jobs:
           export CUDACXX=/usr/local/cuda/bin/nvcc
           export CUDA_PATH=/usr/local/cuda
           pip install --upgrade 'rapids-singlecell-cu13[rapids]' --extra-index-url=https://pypi.nvidia.com
-          
+
       - name: Run notebook
         run: |
           python -m jupyter nbconvert --execute --inplace ${{ inputs.notebook }}
