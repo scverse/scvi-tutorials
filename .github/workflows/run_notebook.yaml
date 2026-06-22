@@ -29,9 +29,9 @@ jobs:
         run: |
           python -m ipykernel install
           python -m pip install "scvi-tools[tutorials,cuda13]" cuml-cu13 cugraph-cu13 cupy-cuda13x
-          NVCC=$(find /usr/local/lib/python3.12/site-packages -name "nvcc" -type f 2>/dev/null | head -1)
-          [ -n "$NVCC" ] && export CUDACXX="$NVCC" && export PATH="$(dirname "$NVCC"):$PATH"
-          python -m pip install "rapids-singlecell[rapids-cu13]"
+          export CUDACXX=/usr/local/cuda/bin/nvcc
+          export CUDA_PATH=/usr/local/cuda
+          pip install --upgrade 'rapids-singlecell-cu13[rapids]' --extra-index-url=https://pypi.nvidia.com
           
       - name: Run notebook
         run: |
