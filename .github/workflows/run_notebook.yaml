@@ -28,7 +28,7 @@ jobs:
       - name: Install Python kernel
         run: |
           python -m ipykernel install
-          python -m pip install "scvi-tools[tutorials,cuda,rapids-cuda12]"
+          python -m pip install "scvi-tools[tutorials,cuda13,rapids-cuda13]"
 
       - name: Run notebook
         run: |
