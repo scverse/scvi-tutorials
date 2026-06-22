@@ -28,10 +28,8 @@ jobs:
       - name: Install Python kernel
         run: |
           python -m ipykernel install
-          python -m pip install "scvi-tools[tutorials,cuda13]" cuml-cu13 cugraph-cu13 cupy-cuda13x
-          NVCC=$(find /usr/local/lib -path "*/nvidia/cuda_nvcc/bin/nvcc" 2>/dev/null | head -1)
-          [ -n "$NVCC" ] && export PATH="$(dirname "$NVCC"):$PATH"
-          python -m pip install rapids-singlecell
+          python -m pip install "scvi-tools[tutorials,cuda13]" 
+          python -m pip install "rapids-singlecell[rapids-cu13]"
           
       - name: Run notebook
         run: |
