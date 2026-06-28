@@ -49,6 +49,7 @@ jobs:
           - scrna/contrastiveVI_tutorial.ipynb
           - scrna/decipher_tutorial.ipynb
           - scrna/harmonization.ipynb
+          - scrna/JointEmbeddingSCVI_tutorial.ipynb
           - scrna/linear_decoder.ipynb
           - scrna/MrVI_tutorial.ipynb
           - scrna/scanvi_fix.ipynb
