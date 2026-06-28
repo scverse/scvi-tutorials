@@ -13,6 +13,7 @@ on:
           - atac/scbasset_batch.ipynb
           - atac/scbasset.ipynb
           - custom_dl/ann_collection.ipynb
+          - custom_dl/api_overview_annbatch.ipynb
           - custom_dl/lamin.ipynb
           - custom_dl/Tahoe100_mrVI_lamin.ipynb
           - custom_dl/tiledb.ipynb
@@ -27,10 +28,13 @@ on:
           - hub/scvi_hub_upload_and_large_files.ipynb
           - hub/Tahoe100.ipynb
           - multimodal/cite_scrna_integration_w_totalVI.ipynb
+          - multimodal/DiagVI_spatial_proteomics.ipynb
+          - multimodal/DiagVI_spatial_transcriptomics.ipynb
           - multimodal/MultiVI_tutorial.ipynb
           - multimodal/scarches_scvi_tools.ipynb
           - multimodal/totalVI_reference_mapping.ipynb
           - multimodal/totalVI.ipynb
+          - multimodal/totalanvi.ipynb
           - quick_start/api_overview.ipynb
           - quick_start/data_loading.ipynb
           - scbs/MethylVI_batch.ipynb
@@ -103,9 +107,7 @@ jobs:
       - name: Install Python kernel
         run: |
           python -m ipykernel install
-          python -m pip install "jax[cuda12]"
-          python -m pip install "scvi-tools[tutorials]"
-          python -m pip install "scanpy>=1.11.1"
+          python -m pip install "scvi-tools[tutorials,cuda,rapids]"
 
       - name: Run notebook
         run: |
