@@ -54,6 +54,7 @@ on:
           - scrna/tabula_muris.ipynb
           - scrna/Tahoe100_mrVI.ipynb
           - scrna/velovi.ipynb
+          - spatial/Visium_colon_Harreman_pipeline.ipynb
           - spatial/cell2location_lymph_node_spatial_tutorial.ipynb
           - spatial/DestVI_tutorial.ipynb
           - spatial/gimvi_tutorial.ipynb
