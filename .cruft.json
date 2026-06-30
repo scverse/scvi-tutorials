@@ -1,0 +1,33 @@
+
+{
+    "template": "https://github.com/scverse/cookiecutter-scverse",
+    "commit": "d383d94fadff9e4e6fdb59d77c68cb900d7cedec",
+    "checkout": "v0.6.0",
+    "context": {
+        "cookiecutter": {
+            "project_name": "scvi-tutorials",
+            "package_name": "scvi-tutorials",
+            "project_description": "This repository contains the source notebooks for the tutorials on the scvi-tools site",
+            "author_full_name": "Ori Kronfeld",
+            "author_email": "ori.kronfeld@weizmann.ac.il",
+            "github_user": "scverse",
+            "github_repo": "scvi-tutorials",
+            "license": "BSD 3-Clause License",
+            "ide_integration": true,
+            "_copy_without_render": [
+            ],
+            "_exclude_on_template_update": [
+                "LICENSE",
+                "README.md"
+            ],
+            "_render_devdocs": false,
+            "_jinja2_env_vars": {
+                "lstrip_blocks": true,
+                "trim_blocks": true
+            },
+            "_template": "https://github.com/scverse/cookiecutter-scverse",
+            "_commit": "d383d94fadff9e4e6fdb59d77c68cb900d7cedec"
+        }
+    },
+    "directory": null
+}
