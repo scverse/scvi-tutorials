@@ -48,6 +48,7 @@ jobs:
           - scrna/cellassign_tutorial.ipynb
           - scrna/contrastiveVI_tutorial.ipynb
           - scrna/decipher_tutorial.ipynb
+          - scrna/DRVI_pipeline.ipynb
           - scrna/harmonization.ipynb
           - scrna/JointEmbeddingSCVI_tutorial.ipynb
           - scrna/linear_decoder.ipynb
