@@ -15,7 +15,6 @@ on:
           - custom_dl/ann_collection.ipynb
           - custom_dl/api_overview_annbatch.ipynb
           - custom_dl/lamin.ipynb
-          - custom_dl/Tahoe100_mrVI_lamin.ipynb
           - custom_dl/tiledb.ipynb
           - cytometry/CytoVI_advanced_tutorial.ipynb
           - cytometry/CytoVI_batch_correction_tutorial.ipynb
