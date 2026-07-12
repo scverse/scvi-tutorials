@@ -26,7 +26,7 @@ jobs:
       # For git tag
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - name: git tag
         run: |
           git config --global user.email "ori.kronfeld@scverse.org"
@@ -44,7 +44,7 @@ jobs:
       # For GitHub release publishing
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
       - uses: softprops/action-gh-release@v2
         with:
           name: ${{ inputs.tag }}
