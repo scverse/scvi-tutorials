@@ -1,6 +1,7 @@
 fail_fast: false
 default_language_version:
   python: python3
+  node: 22.23.1
 default_stages:
   - pre-commit
   - pre-push
@@ -35,7 +36,7 @@ repos:
           )$
 
   - repo: https://github.com/igorshubovych/markdownlint-cli
-    rev: v0.45.0
+    rev: v0.49.1
     hooks:
       - id: markdownlint-fix
         exclude: |
@@ -44,7 +45,7 @@ repos:
           )$
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.14.5
+    rev: v0.15.22
     hooks:
       - id: ruff
         args: [--fix, --exit-non-zero-on-fix]
