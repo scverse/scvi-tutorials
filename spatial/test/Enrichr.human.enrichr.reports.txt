@@ -1,0 +1,208 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Old P-value	Old Adjusted P-value	Odds Ratio	Combined Score	Genes
+BioPlanet_2019	Immune system	14/998	9.432097e-08	1.952444e-05	0	0	7.495596e+00	1.212530e+02	CD40;IL1RN;STAT1;UBE2L6;ISG15;IFI30;IFIT1;PSMA4;KLRK1;PSME2;GBP2;CTSC;CFB;GBP4
+BioPlanet_2019	Interferon signaling	7/168	1.918676e-07	1.985830e-05	0	0	2.000910e+01	3.094699e+02	STAT1;UBE2L6;ISG15;IFI30;IFIT1;GBP2;GBP4
+BioPlanet_2019	Immune system signaling by interferons, interleukins, prolactin, and growth hormones	8/280	4.307413e-07	2.972115e-05	0	0	1.378011e+01	2.019856e+02	IL1RN;STAT1;UBE2L6;ISG15;IFI30;IFIT1;GBP2;GBP4
+BioPlanet_2019	Thymic stromal lymphopoietin (TSLP) pathway	5/90	2.978402e-06	1.541323e-04	0	0	2.596732e+01	3.304114e+02	CXCL10;CXCL9;CD40;PSMA4;PSME2
+BioPlanet_2019	Type II interferon signaling (interferon-gamma)	4/50	7.311553e-06	3.026983e-04	0	0	3.762571e+01	4.449637e+02	CXCL10;CXCL9;STAT1;ISG15
+BioPlanet_2019	Interferon alpha/beta signaling	4/64	1.965950e-05	6.782527e-04	0	0	2.882609e+01	3.123869e+02	STAT1;ISG15;IFIT1;GBP2
+BioPlanet_2019	Antiviral mechanism by interferon-stimulated genes	4/70	2.805910e-05	8.297478e-04	0	0	2.619763e+01	2.745825e+02	STAT1;UBE2L6;ISG15;IFIT1
+BioPlanet_2019	Interleukin-4 regulation of apoptosis	6/267	5.196123e-05	1.344497e-03	0	0	1.028683e+01	1.014797e+02	IL1RN;STAT1;FGL2;UBE2L6;GBP2;CTSC
+BioPlanet_2019	Interferon-gamma signaling pathway	4/97	1.009033e-04	2.320777e-03	0	0	1.856662e+01	1.708379e+02	STAT1;IFI30;GBP2;GBP4
+BioPlanet_2019	TNF-alpha effects on cytokine activity, cell motility, and apoptosis	4/135	3.594242e-04	7.440082e-03	0	0	1.315566e+01	1.043376e+02	CXCL10;CD40;IL1RN;CMKLR1
+BioPlanet_2019	Toll-like receptor signaling pathway regulation	4/142	4.353342e-04	8.192197e-03	0	0	1.248393e+01	9.661810e+01	CXCL10;CXCL9;CD40;STAT1
+BioPlanet_2019	T cell receptor regulation of apoptosis	7/603	7.087653e-04	1.162045e-02	0	0	5.286327e+00	3.833637e+01	CXCL10;CXCL9;IL1RN;PNP;PPA1;STAT1;PSME2
+BioPlanet_2019	Adaptive immune system	7/606	7.297869e-04	1.162045e-02	0	0	5.259036e+00	3.798475e+01	CD40;PSMA4;KLRK1;PSME2;UBE2L6;IFI30;CTSC
+BioPlanet_2019	Urea cycle and metabolism of amino groups	2/20	1.130759e-03	1.671908e-02	0	0	4.613889e+01	3.130462e+02	GATM;ASS1
+BioPlanet_2019	Amino acid metabolism	4/195	1.421481e-03	1.961644e-02	0	0	8.995675e+00	5.897615e+01	GATM;PSMA4;PSME2;ASS1
+BioPlanet_2019	TGF-beta regulation of extracellular matrix	6/565	2.738875e-03	3.543419e-02	0	0	4.730281e+00	2.790964e+01	PPA1;FGL2;IFIT1;GBP2;CTSC;CFB
+BioPlanet_2019	Negative regulators of RIG-I/MDA5 signaling	2/33	3.077847e-03	3.747732e-02	0	0	2.677285e+01	1.548414e+02	UBE2L6;ISG15
+BioPlanet_2019	Interleukin-23-mediated signaling events	2/37	3.857632e-03	4.390604e-02	0	0	2.370833e+01	1.317638e+02	CXCL9;STAT1
+BioPlanet_2019	HIV factor interactions with host	3/128	4.030023e-03	4.390604e-02	0	0	1.012340e+01	5.582028e+01	RANBP1;PSMA4;PSME2
+BioPlanet_2019	EGFR1 pathway	3/152	6.496108e-03	6.723472e-02	0	0	8.482507e+00	4.272259e+01	RANBP1;PNP;PDLIM4
+BioPlanet_2019	Malaria	2/51	7.222503e-03	7.119324e-02	0	0	1.692262e+01	8.343788e+01	CD40;KLRK1
+BioPlanet_2019	Arginine and proline metabolism	2/54	8.067670e-03	7.260903e-02	0	0	1.594391e+01	7.684790e+01	GATM;ASS1
+BioPlanet_2019	Binding of chemokines to chemokine receptors	2/54	8.067670e-03	7.260903e-02	0	0	1.594391e+01	7.684790e+01	CXCL10;CXCL9
+BioPlanet_2019	Autodegradation of Cdh1 by Cdh1-APC/C	2/58	9.260283e-03	7.831427e-02	0	0	1.480208e+01	6.930366e+01	PSMA4;PSME2
+BioPlanet_2019	Leptin signaling pathway	2/61	1.020319e-02	7.831427e-02	0	0	1.404732e+01	6.440772e+01	IL1RN;STAT1
+BioPlanet_2019	Licensing factor removal from origins	2/61	1.020319e-02	7.831427e-02	0	0	1.404732e+01	6.440772e+01	PSMA4;PSME2
+BioPlanet_2019	Proteasome degradation	2/63	1.085450e-02	7.831427e-02	0	0	1.358538e+01	6.144907e+01	PSMA4;PSME2
+BioPlanet_2019	Ubiquitin-mediated degradation of phosphorylated Cdc25A	2/64	1.118690e-02	7.831427e-02	0	0	1.336559e+01	6.005176e+01	PSMA4;PSME2
+BioPlanet_2019	Chemokine signaling pathway	3/189	1.175569e-02	7.831427e-02	0	0	6.782430e+00	3.013717e+01	CXCL10;CXCL9;STAT1
+BioPlanet_2019	Destabilization of mRNA by AUF1 (hnRNP D0)	2/66	1.186506e-02	7.831427e-02	0	0	1.294661e+01	5.740732e+01	PSMA4;PSME2
+BioPlanet_2019	Cycling of Ran in nucleocytoplasmic transport	1/5	1.243878e-02	7.831427e-02	0	0	1.017653e+02	4.464379e+02	RANBP1
+BioPlanet_2019	Activation of NF-kappaB in B cells	2/68	1.256089e-02	7.831427e-02	0	0	1.255303e+01	5.494671e+01	PSMA4;PSME2
+BioPlanet_2019	Nucleotide metabolism	2/70	1.327420e-02	7.831427e-02	0	0	1.218260e+01	5.265237e+01	PNP;GLRX
+BioPlanet_2019	G alpha (i) signaling events	3/199	1.349684e-02	7.831427e-02	0	0	6.433131e+00	2.769655e+01	P2RY13;CXCL10;CXCL9
+BioPlanet_2019	RIG-I-like receptor signaling pathway	2/71	1.363735e-02	7.831427e-02	0	0	1.200543e+01	5.156266e+01	CXCL10;ISG15
+BioPlanet_2019	HIV infection	3/200	1.367863e-02	7.831427e-02	0	0	6.400151e+00	2.746894e+01	RANBP1;PSMA4;PSME2
+BioPlanet_2019	Cyclin A-Cdk2-associated events at S phase entry	2/72	1.400480e-02	7.831427e-02	0	0	1.183333e+01	5.050887e+01	PSMA4;PSME2
+BioPlanet_2019	Degradation of beta-catenin by the destruction complex	2/73	1.437653e-02	7.831427e-02	0	0	1.166608e+01	4.948935e+01	PSMA4;PSME2
+BioPlanet_2019	Activation of C3 and C5	1/6	1.490828e-02	7.912859e-02	0	0	8.140816e+01	3.423896e+02	CFB
+BioPlanet_2019	RIG-I/MDA5-mediated induction of interferon-alpha/beta pathways	2/76	1.551716e-02	8.030132e-02	0	0	1.119144e+01	4.662140e+01	UBE2L6;ISG15
+BioPlanet_2019	Apoptosis regulation	2/78	1.629856e-02	8.228485e-02	0	0	1.089583e+01	4.485465e+01	PSMA4;PSME2
+BioPlanet_2019	Antigen processing: cross presentation	2/79	1.669548e-02	8.228485e-02	0	0	1.075379e+01	4.401114e+01	PSMA4;PSME2
+BioPlanet_2019	Creatine metabolism	1/7	1.737174e-02	8.233735e-02	0	0	6.783673e+01	2.749362e+02	GATM
+BioPlanet_2019	Antigen processing and presentation	2/81	1.750166e-02	8.233735e-02	0	0	1.048049e+01	4.239838e+01	PSME2;IFI30
+BioPlanet_2019	APC/C-mediated degradation of cell cycle proteins	2/82	1.791087e-02	8.239002e-02	0	0	1.034896e+01	4.162710e+01	PSMA4;PSME2
+BioPlanet_2019	mRNA stability regulation by proteins that bind AU-rich elements	2/86	1.958805e-02	8.466519e-02	0	0	9.854167e+00	3.875482e+01	PSMA4;PSME2
+BioPlanet_2019	Bystander B cell activation	1/8	1.982916e-02	8.466519e-02	0	0	5.814286e+01	2.279550e+02	CD40
+BioPlanet_2019	NOD-like receptor (NLR) proteins	1/8	1.982916e-02	8.466519e-02	0	0	5.814286e+01	2.279550e+02	CD40
+BioPlanet_2019	HIF-1 degradation in normoxia	2/88	2.045053e-02	8.466519e-02	0	0	9.624031e+00	3.743504e+01	PSMA4;PSME2
+BioPlanet_2019	DNA replication pre-Initiation	2/88	2.045053e-02	8.466519e-02	0	0	9.624031e+00	3.743504e+01	PSMA4;PSME2
+BioPlanet_2019	Inhibition of matrix metalloproteinases	1/9	2.228056e-02	8.702030e-02	0	0	5.087245e+01	1.935209e+02	MMP14
+BioPlanet_2019	Urea cycle	1/9	2.228056e-02	8.702030e-02	0	0	5.087245e+01	1.935209e+02	ASS1
+BioPlanet_2019	cAMP receptor, G-protein-independent pathways inferred from amoeba model	1/9	2.228056e-02	8.702030e-02	0	0	5.087245e+01	1.935209e+02	STAT1
+BioPlanet_2019	Purine catabolism	1/10	2.472595e-02	9.077088e-02	0	0	4.521769e+01	1.673010e+02	PNP
+BioPlanet_2019	Ran role in mitotic spindle regulation	1/10	2.472595e-02	9.077088e-02	0	0	4.521769e+01	1.673010e+02	RANBP1
+BioPlanet_2019	Interferon-alpha signaling pathway	1/10	2.472595e-02	9.077088e-02	0	0	4.521769e+01	1.673010e+02	STAT1
+BioPlanet_2019	Downstream signaling events Of B cell receptor (BCR)	2/98	2.499488e-02	9.077088e-02	0	0	8.617188e+00	3.178953e+01	PSMA4;PSME2
+BioPlanet_2019	Antigen presentation: folding, assembly, and peptide loading of class I MHC proteins	3/255	2.586146e-02	9.229867e-02	0	0	4.989362e+00	1.823612e+01	PSMA4;PSME2;UBE2L6
+BioPlanet_2019	Alternative complement pathway	1/11	2.716534e-02	9.283248e-02	0	0	4.069388e+01	1.467345e+02	CFB
+BioPlanet_2019	B lymphocyte cell surface molecules	1/11	2.716534e-02	9.283248e-02	0	0	4.069388e+01	1.467345e+02	CD40
+BioPlanet_2019	MHC class II antigen presentation	2/103	2.740756e-02	9.283248e-02	0	0	8.188531e+00	2.945363e+01	IFI30;CTSC
+BioPlanet_2019	FSH regulation of apoptosis	3/263	2.799380e-02	9.283248e-02	0	0	4.833879e+00	1.728485e+01	STAT1;ACP2;ISG15
+BioPlanet_2019	Cytokine-cytokine receptor interaction	3/265	2.854119e-02	9.283248e-02	0	0	4.796492e+00	1.705828e+01	CXCL10;CXCL9;CD40
+BioPlanet_2019	Parkin role in the ubiquitin-proteasomal pathway	1/12	2.959876e-02	9.283248e-02	0	0	3.699258e+01	1.302147e+02	UBE2L6
+BioPlanet_2019	Alanine and aspartate metabolism	1/12	2.959876e-02	9.283248e-02	0	0	3.699258e+01	1.302147e+02	ASS1
+BioPlanet_2019	Pyruvate dehydrogenase (PDH) complex regulation	1/12	2.959876e-02	9.283248e-02	0	0	3.699258e+01	1.302147e+02	PDK3
+BioPlanet_2019	Signaling by interleukins	2/109	3.042166e-02	9.398932e-02	0	0	7.727025e+00	2.698741e+01	IL1RN;STAT1
+BioPlanet_2019	S phase	2/112	3.197608e-02	9.470609e-02	0	0	7.515152e+00	2.587292e+01	PSMA4;PSME2
+BioPlanet_2019	Purine salvage	1/13	3.202621e-02	9.470609e-02	0	0	3.390816e+01	1.166848e+02	PNP
+BioPlanet_2019	Interleukin-22 soluble receptor signaling pathway	1/13	3.202621e-02	9.470609e-02	0	0	3.390816e+01	1.166848e+02	STAT1
+BioPlanet_2019	Interferon gamma signaling regulation	1/14	3.444771e-02	9.821181e-02	0	0	3.129827e+01	1.054224e+02	STAT1
+BioPlanet_2019	Complement cascade regulation	1/14	3.444771e-02	9.821181e-02	0	0	3.129827e+01	1.054224e+02	CFB
+BioPlanet_2019	Cell cycle checkpoints	2/117	3.463508e-02	9.821181e-02	0	0	7.186594e+00	2.416771e+01	PSMA4;PSME2
+BioPlanet_2019	Immunoregulatory interactions between a lymphoid and a non-lymphoid cell	2/119	3.572214e-02	9.992544e-02	0	0	7.063034e+00	2.353392e+01	CD40;KLRK1
+BioPlanet_2019	Lysosome	2/121	3.682237e-02	1.003641e-01	0	0	6.943627e+00	2.292543e+01	ACP2;CTSC
+BioPlanet_2019	Interleukin-1 signaling pathway	2/125	3.906173e-02	1.003641e-01	0	0	6.716463e+00	2.177889e+01	IL1RN;UBE2L6
+BioPlanet_2019	Riboflavin metabolism	1/16	3.927292e-02	1.003641e-01	0	0	2.712245e+01	8.780134e+01	ACP2
+BioPlanet_2019	Interleukin-10 anti-inflammatory signaling pathway	1/16	3.927292e-02	1.003641e-01	0	0	2.712245e+01	8.780134e+01	STAT1
+BioPlanet_2019	CD40L signaling pathway	1/16	3.927292e-02	1.003641e-01	0	0	2.712245e+01	8.780134e+01	CD40
+BioPlanet_2019	Interleukin-9 signaling pathway	1/16	3.927292e-02	1.003641e-01	0	0	2.712245e+01	8.780134e+01	STAT1
+BioPlanet_2019	Nucleotide-like (purinergic) G-protein coupled receptors	1/16	3.927292e-02	1.003641e-01	0	0	2.712245e+01	8.780134e+01	P2RY13
+BioPlanet_2019	Dendritic cells in regulating TH1 and TH2 development	1/17	4.167665e-02	1.052081e-01	0	0	2.542602e+01	8.079917e+01	CD40
+BioPlanet_2019	Nucleotide di- and triphosphate biosynthesis and interconversion	1/18	4.407449e-02	1.099207e-01	0	0	2.392917e+01	7.470386e+01	GLRX
+BioPlanet_2019	Mitotic G1-G1/S phases	2/135	4.488006e-02	1.105973e-01	0	0	6.208333e+00	1.926919e+01	PSMA4;PSME2
+BioPlanet_2019	Innate immune system	3/319	4.545836e-02	1.107045e-01	0	0	3.965931e+00	1.225853e+01	UBE2L6;ISG15;CFB
+BioPlanet_2019	Signaling by FGFR1 fusion mutants	1/19	4.646646e-02	1.118437e-01	0	0	2.259864e+01	6.935578e+01	STAT1
+BioPlanet_2019	Apoptotic signaling in response to DNA damage	1/20	4.885255e-02	1.162354e-01	0	0	2.140816e+01	6.463015e+01	STAT1
+BioPlanet_2019	Signaling by the B cell receptor (BCR)	2/151	5.480507e-02	1.289165e-01	0	0	5.537192e+00	1.607986e+01	PSMA4;PSME2
+BioPlanet_2019	Th1/Th2 differentiation pathway	1/23	5.597578e-02	1.298503e-01	0	0	1.848609e+01	5.329236e+01	CD40
+BioPlanet_2019	Proteasome complex	1/24	5.833855e-02	1.298503e-01	0	0	1.768146e+01	5.024172e+01	PSMA4
+BioPlanet_2019	Inhibition of cellular proliferation by Gleevec	1/24	5.833855e-02	1.298503e-01	0	0	1.768146e+01	5.024172e+01	STAT1
+BioPlanet_2019	Cytosolic tRNA aminoacylation	1/24	5.833855e-02	1.298503e-01	0	0	1.768146e+01	5.024172e+01	PPA1
+BioPlanet_2019	Nicotinate and nicotinamide metabolism	1/24	5.833855e-02	1.298503e-01	0	0	1.768146e+01	5.024172e+01	PNP
+BioPlanet_2019	Interleukin-2 signaling pathway	5/847	5.952471e-02	1.308747e-01	0	0	2.521510e+00	7.114096e+00	KLRK1;STAT1;IFIT1;AIF1;CTSC
+BioPlanet_2019	Interferon alpha signaling regulation	1/25	6.069553e-02	1.308747e-01	0	0	1.694388e+01	4.747480e+01	STAT1
+BioPlanet_2019	TPO signaling pathway	1/25	6.069553e-02	1.308747e-01	0	0	1.694388e+01	4.747480e+01	STAT1
+BioPlanet_2019	Interleukin-27-mediated signaling events	1/26	6.304672e-02	1.331701e-01	0	0	1.626531e+01	4.495534e+01	STAT1
+BioPlanet_2019	Fibroblast growth factor 1	1/26	6.304672e-02	1.331701e-01	0	0	1.626531e+01	4.495534e+01	MMP14
+BioPlanet_2019	Rev-mediated nuclear export of HIV-1 RNA	1/27	6.539215e-02	1.353618e-01	0	0	1.563893e+01	4.265289e+01	RANBP1
+BioPlanet_2019	TWEAK regulation of gene expression	1/27	6.539215e-02	1.353618e-01	0	0	1.563893e+01	4.265289e+01	CXCL10
+BioPlanet_2019	T cell receptor calcium pathway	1/29	7.006576e-02	1.400519e-01	0	0	1.452041e+01	3.859991e+01	BATF3
+BioPlanet_2019	Matrix metalloproteinases	1/29	7.006576e-02	1.400519e-01	0	0	1.452041e+01	3.859991e+01	MMP14
+BioPlanet_2019	Activation of matrix metalloproteinases	1/30	7.239397e-02	1.400519e-01	0	0	1.401900e+01	3.680874e+01	MMP14
+BioPlanet_2019	Asthma	1/30	7.239397e-02	1.400519e-01	0	0	1.401900e+01	3.680874e+01	CD40
+BioPlanet_2019	Inflammatory response pathway	1/30	7.239397e-02	1.400519e-01	0	0	1.401900e+01	3.680874e+01	CD40
+BioPlanet_2019	Signaling by FGFR1 mutants	1/30	7.239397e-02	1.400519e-01	0	0	1.401900e+01	3.680874e+01	STAT1
+BioPlanet_2019	PDGFA signaling pathway	1/30	7.239397e-02	1.400519e-01	0	0	1.401900e+01	3.680874e+01	STAT1
+BioPlanet_2019	CD40/CD40L signaling	1/31	7.471646e-02	1.432065e-01	0	0	1.355102e+01	3.515209e+01	CD40
+BioPlanet_2019	Glycine, serine and threonine metabolism	1/32	7.703326e-02	1.436566e-01	0	0	1.311323e+01	3.361601e+01	GATM
+BioPlanet_2019	Alanine, aspartate and glutamate metabolism	1/32	7.703326e-02	1.436566e-01	0	0	1.311323e+01	3.361601e+01	ASS1
+BioPlanet_2019	Hypothetical network for drug addiction	1/32	7.703326e-02	1.436566e-01	0	0	1.311323e+01	3.361601e+01	PPA1
+BioPlanet_2019	HIF-2-alpha transcription factor network	1/34	8.164980e-02	1.448130e-01	0	0	1.231725e+01	3.085861e+01	MMP14
+BioPlanet_2019	Interleukin-7 interactions in immune response	1/34	8.164980e-02	1.448130e-01	0	0	1.231725e+01	3.085861e+01	CXCL10
+BioPlanet_2019	EPO receptor signaling	1/34	8.164980e-02	1.448130e-01	0	0	1.231725e+01	3.085861e+01	STAT1
+BioPlanet_2019	GPCR ligand binding	3/410	8.280347e-02	1.448130e-01	0	0	3.064928e+00	7.635609e+00	P2RY13;CXCL10;CXCL9
+BioPlanet_2019	Peptide G-protein coupled receptors	2/192	8.325238e-02	1.448130e-01	0	0	4.333333e+00	1.077214e+01	CXCL10;CXCL9
+BioPlanet_2019	Primary immunodeficiency	1/35	8.394959e-02	1.448130e-01	0	0	1.195438e+01	2.961745e+01	CD40
+BioPlanet_2019	Integrated cancer pathway	1/35	8.394959e-02	1.448130e-01	0	0	1.195438e+01	2.961745e+01	STAT1
+BioPlanet_2019	Interleukin-7 signaling pathway	1/35	8.394959e-02	1.448130e-01	0	0	1.195438e+01	2.961745e+01	STAT1
+BioPlanet_2019	EGF receptor (ErbB1) signaling pathway	1/35	8.394959e-02	1.448130e-01	0	0	1.195438e+01	2.961745e+01	STAT1
+BioPlanet_2019	GM-CSF-mediated signaling events	1/36	8.624372e-02	1.475409e-01	0	0	1.161224e+01	2.845671e+01	STAT1
+BioPlanet_2019	Disease	4/674	8.734708e-02	1.482036e-01	0	0	2.502271e+00	6.100201e+00	RANBP1;PSMA4;STAT1;PSME2
+BioPlanet_2019	Allograft rejection	1/37	8.853223e-02	1.489933e-01	0	0	1.128912e+01	2.736920e+01	CD40
+BioPlanet_2019	Signal transduction through IL-1R	1/38	9.081512e-02	1.516027e-01	0	0	1.098345e+01	2.634853e+01	IL1RN
+BioPlanet_2019	Tricarboxylic acid (TCA) cycle	1/39	9.309240e-02	1.541610e-01	0	0	1.069388e+01	2.538901e+01	PDK3
+BioPlanet_2019	DNA replication	2/207	9.458485e-02	1.553894e-01	0	0	4.013211e+00	9.464188e+00	PSMA4;PSME2
+BioPlanet_2019	Pyruvate metabolism and citric acid (TCA) cycle	1/40	9.536410e-02	1.554360e-01	0	0	1.041915e+01	2.448556e+01	PDK3
+BioPlanet_2019	Bioactive peptide-induced signaling pathway	1/41	9.763021e-02	1.578864e-01	0	0	1.015816e+01	2.363366e+01	STAT1
+BioPlanet_2019	Signaling events mediated by T cell protein tyrosine phosphatase (TC-PTP)	1/42	9.989077e-02	1.602898e-01	0	0	9.909905e+00	2.282923e+01	STAT1
+BioPlanet_2019	Growth hormone receptor signaling	1/43	1.021458e-01	1.626475e-01	0	0	9.673469e+00	2.206861e+01	STAT1
+BioPlanet_2019	Interactions of HIV Vpr protein with host cellular proteins	1/44	1.043952e-01	1.649604e-01	0	0	9.448030e+00	2.134850e+01	RANBP1
+BioPlanet_2019	Signaling by FGFR mutants	1/45	1.066392e-01	1.659723e-01	0	0	9.232839e+00	2.066590e+01	STAT1
+BioPlanet_2019	Wnt interactions in lipid metabolism and immune response	1/45	1.066392e-01	1.659723e-01	0	0	9.232839e+00	2.066590e+01	IFI30
+BioPlanet_2019	Transfer RNA aminoacylation	1/46	1.088776e-01	1.681916e-01	0	0	9.027211e+00	2.001812e+01	PPA1
+BioPlanet_2019	Regulation of NFAT transcription factors	1/47	1.111106e-01	1.703695e-01	0	0	8.830524e+00	1.940269e+01	BATF3
+BioPlanet_2019	Intestinal immune network for IgA production	1/48	1.133380e-01	1.712479e-01	0	0	8.642206e+00	1.881737e+01	CD40
+BioPlanet_2019	Diurnally regulated genes with circadian orthologs	1/48	1.133380e-01	1.712479e-01	0	0	8.642206e+00	1.881737e+01	PSMA4
+BioPlanet_2019	Interleukin-5 signaling pathway	1/49	1.155600e-01	1.733400e-01	0	0	8.461735e+00	1.826013e+01	STAT1
+BioPlanet_2019	Type I interferon (interferon-alpha/beta) pathway	1/51	1.199876e-01	1.774379e-01	0	0	8.122449e+00	1.722257e+01	STAT1
+BioPlanet_2019	Pyruvate metabolism	1/52	1.221933e-01	1.774379e-01	0	0	7.962785e+00	1.673898e+01	PDK3
+BioPlanet_2019	Autoimmune thyroid disease	1/52	1.221933e-01	1.774379e-01	0	0	7.962785e+00	1.673898e+01	CD40
+BioPlanet_2019	Signaling events mediated by stem cell factor receptor (c-Kit)	1/52	1.221933e-01	1.774379e-01	0	0	7.962785e+00	1.673898e+01	STAT1
+BioPlanet_2019	Apoptosis	2/242	1.225779e-01	1.774379e-01	0	0	3.421875e+00	7.182545e+00	PSMA4;PSME2
+BioPlanet_2019	Kit receptor signaling pathway	1/54	1.265883e-01	1.819707e-01	0	0	7.661533e+00	1.583497e+01	STAT1
+BioPlanet_2019	Cytosolic DNA-sensing pathway	1/56	1.309618e-01	1.868079e-01	0	0	7.382189e+00	1.500688e+01	CXCL10
+BioPlanet_2019	Class A GPCRs (rhodopsin-like)	2/253	1.317582e-01	1.868079e-01	0	0	3.270086e+00	6.627768e+00	P2RY13;CMKLR1
+BioPlanet_2019	SHP2 signaling	1/57	1.331405e-01	1.874836e-01	0	0	7.250000e+00	1.461854e+01	STAT1
+BioPlanet_2019	FGF signaling pathway	1/61	1.418019e-01	1.983310e-01	0	0	6.765306e+00	1.321484e+01	STAT1
+BioPlanet_2019	Signaling events mediated by focal adhesion kinase	1/62	1.439539e-01	1.999897e-01	0	0	6.654065e+00	1.289732e+01	MMP14
+BioPlanet_2019	MAPK cascade role in angiogenesis	1/64	1.482422e-01	2.045742e-01	0	0	6.442177e+00	1.229752e+01	MMP14
+BioPlanet_2019	Interleukin-12-mediated signaling events	1/65	1.503784e-01	2.061479e-01	0	0	6.341199e+00	1.201404e+01	STAT1
+BioPlanet_2019	Thyroid-stimulating hormone signaling pathway	1/66	1.525094e-01	2.063362e-01	0	0	6.243328e+00	1.174076e+01	STAT1
+BioPlanet_2019	Endochondral ossification	1/66	1.525094e-01	2.063362e-01	0	0	6.243328e+00	1.174076e+01	STAT1
+BioPlanet_2019	Pancreatic cancer	1/70	1.609810e-01	2.149876e-01	0	0	5.880213e+00	1.074002e+01	STAT1
+BioPlanet_2019	Complement and coagulation cascades	1/70	1.609810e-01	2.149876e-01	0	0	5.880213e+00	1.074002e+01	CFB
+BioPlanet_2019	Interleukin-6 signaling pathway	1/71	1.630860e-01	2.150242e-01	0	0	5.795918e+00	1.051077e+01	STAT1
+BioPlanet_2019	Viral myocarditis	1/71	1.630860e-01	2.150242e-01	0	0	5.795918e+00	1.051077e+01	CD40
+BioPlanet_2019	Leishmaniasis	1/72	1.651857e-01	2.164142e-01	0	0	5.713998e+00	1.028911e+01	STAT1
+BioPlanet_2019	E2F transcription factor network	1/74	1.693697e-01	2.205002e-01	0	0	5.556891e+00	9.867213e+00	RANBP1
+BioPlanet_2019	Prolactin activation of MAPK signaling	1/75	1.714540e-01	2.218186e-01	0	0	5.481522e+00	9.666338e+00	STAT1
+BioPlanet_2019	Complement cascade	1/77	1.756072e-01	2.257807e-01	0	0	5.336735e+00	9.283280e+00	CFB
+BioPlanet_2019	Signaling by SCF-KIT	1/78	1.776761e-01	2.270306e-01	0	0	5.267161e+00	9.100564e+00	STAT1
+BioPlanet_2019	MAP kinase signaling pathway	1/81	1.838525e-01	2.334814e-01	0	0	5.068878e+00	8.584761e+00	STAT1
+BioPlanet_2019	Regular glucocorticoid receptor pathway	1/82	1.859011e-01	2.346435e-01	0	0	5.006047e+00	8.422875e+00	STAT1
+BioPlanet_2019	Non-class A, B, C GPCRs	1/86	1.940455e-01	2.434389e-01	0	0	4.769508e+00	7.820383e+00	P2RY13
+BioPlanet_2019	Extracellular matrix organization	1/93	2.081065e-01	2.595062e-01	0	0	4.405058e+00	6.914643e+00	MMP14
+BioPlanet_2019	Mitochondrial pathway of apoptosis: BH3-only Bcl-2 family	1/97	2.160330e-01	2.677775e-01	0	0	4.220663e+00	6.467423e+00	CTSC
+BioPlanet_2019	Senescence and autophagy	1/99	2.199671e-01	2.710149e-01	0	0	4.134111e+00	6.260189e+00	MMP14
+BioPlanet_2019	Pyrimidine metabolism	1/100	2.219269e-01	2.710149e-01	0	0	4.092146e+00	6.160346e+00	PNP
+BioPlanet_2019	GnRH signaling pathway	1/101	2.238819e-01	2.710149e-01	0	0	4.051020e+00	6.062906e+00	MMP14
+BioPlanet_2019	TNF-alpha signaling pathway	1/101	2.238819e-01	2.710149e-01	0	0	4.051020e+00	6.062906e+00	STAT1
+BioPlanet_2019	Interleukin-4 signaling pathway	1/104	2.297179e-01	2.764628e-01	0	0	3.932435e+00	5.784232e+00	STAT1
+BioPlanet_2019	ERBB1 downstream pathway	1/106	2.335847e-01	2.794915e-01	0	0	3.857143e+00	5.609098e+00	STAT1
+BioPlanet_2019	Leptin influence on immune response	1/110	2.412612e-01	2.870177e-01	0	0	3.714847e+00	5.282049e+00	IL1RN
+BioPlanet_2019	CXCR4 signaling pathway	1/116	2.526350e-01	2.981602e-01	0	0	3.519965e+00	4.842801e+00	STAT1
+BioPlanet_2019	Tricarboxylic acid (TCA) cycle and respiratory electron transport	1/117	2.545143e-01	2.981602e-01	0	0	3.489444e+00	4.774949e+00	PDK3
+BioPlanet_2019	Prolactin regulation of apoptosis	1/118	2.563890e-01	2.981602e-01	0	0	3.459445e+00	4.708511e+00	PSMA4
+BioPlanet_2019	HIV life cycle	1/118	2.563890e-01	2.981602e-01	0	0	3.459445e+00	4.708511e+00	RANBP1
+BioPlanet_2019	Interleukin-1 regulation of extracellular matrix	1/120	2.601245e-01	3.008143e-01	0	0	3.400960e+00	4.579716e+00	IL1RN
+BioPlanet_2019	Signaling by PDGF	1/122	2.638416e-01	3.034178e-01	0	0	3.344409e+00	4.456112e+00	STAT1
+BioPlanet_2019	Signaling by FGFR in disease	1/128	2.748835e-01	3.143695e-01	0	0	3.185441e+00	4.113704e+00	STAT1
+BioPlanet_2019	PDGFB signaling pathway	1/129	2.767079e-01	3.147173e-01	0	0	3.160395e+00	4.060453e+00	STAT1
+BioPlanet_2019	Parkinson's disease	1/131	2.803434e-01	3.171097e-01	0	0	3.111460e+00	3.956968e+00	UBE2L6
+BioPlanet_2019	Adipogenesis	1/133	2.839609e-01	3.177292e-01	0	0	3.064007e+00	3.857336e+00	STAT1
+BioPlanet_2019	Cell adhesion molecules (CAMs)	1/133	2.839609e-01	3.177292e-01	0	0	3.064007e+00	3.857336e+00	CD40
+BioPlanet_2019	Ubiquitin-mediated proteolysis	1/136	2.893538e-01	3.203007e-01	0	0	2.995465e+00	3.714691e+00	UBE2L6
+BioPlanet_2019	Oxidative phosphorylation	1/136	2.893538e-01	3.203007e-01	0	0	2.995465e+00	3.714691e+00	PPA1
+BioPlanet_2019	Natural killer cell-mediated cytotoxicity	1/137	2.911426e-01	3.205666e-01	0	0	2.973289e+00	3.668867e+00	KLRK1
+BioPlanet_2019	Systemic lupus erythematosus	1/139	2.947069e-01	3.227742e-01	0	0	2.929902e+00	3.579678e+00	CD40
+BioPlanet_2019	EGF/EGFR signaling pathway	1/141	2.982537e-01	3.249395e-01	0	0	2.887755e+00	3.493638e+00	STAT1
+BioPlanet_2019	Cell cycle	2/453	3.134444e-01	3.397015e-01	0	0	1.801460e+00	2.089934e+00	PSMA4;PSME2
+BioPlanet_2019	Integrated breast cancer pathway	1/152	3.174506e-01	3.422515e-01	0	0	2.675902e+00	3.070418e+00	STAT1
+BioPlanet_2019	Toll receptor cascades	1/159	3.293979e-01	3.532921e-01	0	0	2.556445e+00	2.838904e+00	UBE2L6
+BioPlanet_2019	Purine metabolism	1/164	3.378060e-01	3.604425e-01	0	0	2.477401e+00	2.688682e+00	PNP
+BioPlanet_2019	TGF-beta signaling pathway	1/185	3.720057e-01	3.948984e-01	0	0	2.192325e+00	2.167872e+00	STAT1
+BioPlanet_2019	Metabolism	5/1615	3.786773e-01	3.999296e-01	0	0	1.265700e+00	1.229085e+00	GATM;PNP;PDK3;GLRX;ASS1
+BioPlanet_2019	Jak-STAT signaling pathway	1/199	3.938375e-01	4.138293e-01	0	0	2.035869e+00	1.897057e+00	STAT1
+BioPlanet_2019	Messenger RNA processing	1/203	3.999374e-01	4.181163e-01	0	0	1.995151e+00	1.828450e+00	CELF4
+BioPlanet_2019	Antigen-activated B-cell receptor generation of second messengers	1/211	4.119571e-01	4.285182e-01	0	0	1.918367e+00	1.701277e+00	CD40
+BioPlanet_2019	Gene expression	3/968	4.383294e-01	4.536709e-01	0	0	1.255760e+00	1.035732e+00	PSMA4;PPA1;PSME2
+BioPlanet_2019	Signaling by GPCR	3/977	4.443458e-01	4.576098e-01	0	0	1.243567e+00	1.008722e+00	P2RY13;CXCL10;CXCL9
+BioPlanet_2019	BDNF signaling pathway	1/261	4.819093e-01	4.938377e-01	0	0	1.545526e+00	1.128233e+00	PDLIM4
+BioPlanet_2019	Neuroactive ligand-receptor interaction	1/272	4.961672e-01	5.059439e-01	0	0	1.481964e+00	1.038623e+00	P2RY13
+BioPlanet_2019	Oncostatin M	1/311	5.436868e-01	5.516822e-01	0	0	1.292956e+00	7.879039e-01	STAT1
+BioPlanet_2019	MAPK signaling pathway	1/314	5.471546e-01	5.524927e-01	0	0	1.280368e+00	7.720923e-01	STAT1
+BioPlanet_2019	Pathways in cancer	1/325	5.596501e-01	5.623669e-01	0	0	1.236206e+00	7.175475e-01	STAT1
+BioPlanet_2019	Signal transduction	2/1020	7.312324e-01	7.312324e-01	0	0	7.748854e-01	2.425577e-01	CXCL10;CXCL9
