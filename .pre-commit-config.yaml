@@ -80,3 +80,6 @@ repos:
           Fix the merge conflicts manually and remove the .rej files.
         language: fail
         files: '.*\.rej$'
+ci:
+  skip:
+    - biome-format
