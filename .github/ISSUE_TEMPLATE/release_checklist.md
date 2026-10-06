@@ -13,6 +13,18 @@ assignees: ""
 - [ ] scbasset_batch
 - [ ] scbasset
 
+### custom_dl
+
+- [ ] ann_collection
+- [ ] api_overview_annbatch
+- [ ] lamin
+- [ ] tiledb
+
+### cytometry
+
+- [ ] CytoVI_advanced_tutorial
+- [ ] CytoVI_batch_correction_tutorial
+
 ### dev
 
 - [ ] data_tutorial
@@ -21,21 +33,39 @@ assignees: ""
 
 ### hub
 
-- [ ] minification
+- [ ] cellxgene_census_model
+- [ ] query_hlca_knn
 - [ ] scvi_hub_intro_and_download
 - [ ] scvi_hub_upload_and_large_files
+- [ ] Tahoe100
 
 ### multimodal
 
 - [ ] cite_scrna_integration_w_totalVI
-- [ ] MultVI_tutorial
+- [ ] DiagVI_spatial_proteomics
+- [ ] DiagVI_spatial_transcriptomics
+- [ ] MultiVI_tutorial
+- [ ] scarches_scvi_tools
 - [ ] totalVI_reference_mapping
 - [ ] totalVI
+- [ ] totalanvi
 
 ### quick_start
 
 - [ ] api_overview
 - [ ] data_loading
+
+### r
+
+- [ ] api_overview_in_R
+- [ ] peakvi_in_R
+- [ ] python_in_R
+- [ ] scvi_in_R
+- [ ] totalvi_in_R
+
+### scbs
+
+- [ ] MethylVI_batch
 
 ### scrna
 
@@ -43,23 +73,24 @@ assignees: ""
 - [ ] AutoZI_tutorial
 - [ ] cellassign_tutorial
 - [ ] contrastiveVI_tutorial
+- [ ] decipher_tutorial
+- [ ] DRVI_pipeline
 - [ ] harmonization
+- [ ] JointEmbeddingSCVI_tutorial
 - [ ] linear_decoder
-- [ ] query_hlca_knn
-- [ ] scarches_scvi_tools
+- [ ] MrVI_tutorial
+- [ ] scanvi_fix
 - [ ] scVI_DE_worm
 - [ ] seed_labeling
+- [ ] sysVI
 - [ ] tabula_muris
+- [ ] Tahoe100_mrVI
+- [ ] velovi
 
-### spatial
+### use_cases
 
-- [ ] cell2location_lymph_node_spatial_tutorial
-- [ ] DestVI_tutorial
-- [ ] gimvi_tutorial
-- [ ] stereoscope_heart_LV_tutorial
-- [ ] tangram_scvi_tools
-
-### tuning
-
-- [ ] autotune_new_model
 - [ ] autotune_scvi
+- [ ] interpretability
+- [ ] minification
+- [ ] multiGPU
+- [ ] preprocessing
