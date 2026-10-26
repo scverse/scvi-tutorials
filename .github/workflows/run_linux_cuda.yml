@@ -70,20 +70,21 @@ on:
       python-version:
         description: Python version
         required: true
-        default: "3.13"
+        default: "3.14"
         type: choice
         options:
+          - "3.15"
+          - "3.14"
           - "3.13"
-          - "3.12"
-          - "3.11"
 
       cuda-version:
         description: CUDA version
         required: true
-        default: "12"
+        default: "13"
         type: choice
         options:
           - "12"
+          - "13"
 
       scvi-tools-version:
         description: scvi-tools version (latest, stable, or semver)
