@@ -1,5 +1,26 @@
+[project]
+name = "scvi-tutorials"
+version = "1.5.2"
+description = "Tutorials for scvi-tools - deep probabilistic analysis of single-cell omics data"
+readme = "README.md"
+license = { file = "LICENSE" }
+maintainers = [
+  { name = "The scvi-tools development team", email = "ori.kronfeld@weizmann.ac.il" },
+]
+authors = [
+  { name = "The scvi-tools development team" },
+]
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3.14",
+  "Programming Language :: Python :: 3.15",
+]
+
 [tool.ruff]
-target-version = "py312"
+target-version = "py313"
 line-length = 99
 indent-width = 4
 # Exclude a variety of commonly ignored directories.
