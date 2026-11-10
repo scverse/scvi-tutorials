@@ -97,7 +97,7 @@ jobs:
     runs-on: [self-hosted, Linux, X64, CUDA]
 
     container:
-      image: scverse/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-tutorials-${{ inputs.scvi-tools-version }}
+      image: ghcr.io/scverse/scvi-tools:py${{ inputs.python-version }}-cu${{ inputs.cuda-version }}-${{ inputs.scvi-tools-version }}-tutorials
       options: --user root --gpus all
 
     timeout-minutes: 600 # lenient timeout for scbasset tutorial
@@ -109,7 +109,12 @@ jobs:
       - name: Install Python kernel
         run: |
           python -m ipykernel install
-          python -m pip install "scvi-tools[tutorials,cuda13,rapids-cuda13]"
+          if [ "${{ inputs.cuda-version }}" = "12" ]; then
+            EXTRAS="tutorials,cuda,rapids-cuda12"
+          else
+            EXTRAS="tutorials,cuda13,rapids-cuda13"
+          fi
+          python -m pip install "scvi-tools[${EXTRAS}]"
 
       - name: Run notebook
         run: |
