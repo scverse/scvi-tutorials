@@ -3,7 +3,7 @@
     src="https://github.com/scverse/scvi-tools/blob/main/docs/_static/scvi-tools-horizontal.svg?raw=true"
     width="400"
     alt="scvi-tools"
-  >
+>
 </a>
 
 [![PyPI][pypi-badge]][pypi-link]
@@ -29,7 +29,7 @@ professional services, travel, workshops, and a variety of other needs.
   <img
     src="https://raw.githubusercontent.com/numfocus/templates/master/images/numfocus-logo.png"
     width="200"
-  >
+>
 </a>
 </div>
 

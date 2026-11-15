@@ -1,5 +1,5 @@
 {
-	"[python][toml][json][jsonc]": {
+	"[python][toml][json][jsonc][yaml][markdown]": {
 		"editor.formatOnSave": true,
 		"editor.codeActionsOnSave": {
 			"source.organizeImports": "explicit",
@@ -12,8 +12,11 @@
 	"[toml]": {
 		"editor.defaultFormatter": "tamasfe.even-better-toml",
 	},
-	"[json][jsonc]": {
+	"[json][jsonc][yaml]": {
 		"editor.defaultFormatter": "biomejs.biome",
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "jolars.panache",
 	},
 	"python.analysis.typeCheckingMode": "basic",
 	"python.testing.pytestEnabled": true,
